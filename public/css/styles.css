@@ -1,24 +1,11 @@
-/*  
-    PALETA DE COLORES
-    Amarillo: #EAC926;
-    Azul: #03264C;
-    Celeste: #1259c3;
-    Gris oscuro: #666;
-    Gris claro: #ebebeb;
-    Verde: #39b54a;
-*/
 
-/** ESTILOS GLOBALES */
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
 }
     
-body {
-    font-family: 'Roboto', sans-serif; 
-    font-weight: bolder;
-}
+
 
 main {
     background-color: #ebebeb;
@@ -40,7 +27,7 @@ nav {
     display: none;
 }
 
-/** IMAGENES */
+
 
 .imagen-articulo {
     width: 200px;
@@ -52,7 +39,7 @@ nav {
     width: 50%;
 }
 
-/** TEXTOS */
+
 
 .titulo-principal {
     font-size: 24px;
@@ -84,7 +71,7 @@ nav {
     text-align: center;
 }
 
-/** BOTONES */
+
 
 .burguer-menu {
     text-align: center;
@@ -96,7 +83,7 @@ nav {
     color: white;
 }
 
-/** ÍCONOS */
+
 
 .icono-footer {
     font-size: 2em;
@@ -107,7 +94,7 @@ nav {
     color: #39b54a;
 }
 
-/** CONTENEDORES */
+
 
 .search-bar {
     display: inline;
@@ -131,9 +118,7 @@ nav {
     flex-direction: column;
 }
 
-/** MEDIA QUERIES */
 
-/* TABLETS */
 @media (min-width: 361px){
     .descripcion {
         display: block;
@@ -149,7 +134,7 @@ nav {
     }
 }
 
-/* PC */
+
 @media (min-width: 769px){
     .articulos {
         flex-direction: row;
